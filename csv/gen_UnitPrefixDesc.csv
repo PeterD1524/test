@@ -1,0 +1,543 @@
+ID,m_name,m_prefixMaterial,m_prefixGradeUp,m_prefixType,m_equnitCategory,m_equnitFilterType,m_sortOrder,m_prefixAddition,m_spWazaID,m_wazaType,m_iconAssetBundleID,m_iconAssetName,m_prefabIconAssetBundleID,m_prefabIconAssetName,m_piiIconAssetBundleID,m_piiIconAssetName,m_modelAssetBundleID,m_modelAssetName,m_iconScale,m_dropRatioChest,m_prefixEffect,m_additionalPrefixEffect,m_effectiveUnitPrefix,m_hasDispBPCoeff,m_chestOpenOrder
+0,,0,0,0,0,0,0,0,0,0,0,,0,,0,,0,,0,0,0,0,0,0,0
+1,ディフェンス,2,7,1,0,5,300,0,0,0,7,IconEqunit_Defence,9,IconEqunit_Common_Defence,0,,8,Equnit_Common,1,0,1,0,0,0,0
+2,スーパー ディフェンス,2,8,2,0,5,200,0,0,0,7,IconEqunit_Defence,9,IconEqunit_Superrare_Defence,0,,8,Equnit_Super,1,0,2,0,0,1,0
+3,ハイパー ディフェンス,2,9,2,0,5,100,0,0,0,7,IconEqunit_Defence,9,IconEqunit_Superrare_Defence,0,,8,Equnit_Hyper,1,0,3,0,0,1,0
+4,タフネス,3,12,1,1,5,300,0,0,0,7,IconEqunit_HP,9,IconEqunit_Common_Toughness,0,,8,Equnit_Common,1,1,4,5,0,1,4
+5,スーパー タフネス,3,12,2,1,5,200,0,0,0,7,IconEqunit_HP,9,IconEqunit_Superrare_Toughness,0,,8,Equnit_Super,1,0,6,5,0,1,4
+6,ハイパー タフネス,3,12,2,1,5,100,0,0,0,7,IconEqunit_HP,9,IconEqunit_Superrare_Toughness,0,,8,Equnit_Hyper,1,0,7,5,0,1,4
+7,はやわざ,4,12,1,1,5,300,0,0,0,7,IconEqunit_WazaSpeed,9,IconEqunit_Common_WazaSpeed,0,,8,Equnit_Common,1,1,8,9,0,1,4
+8,スーパー はやわざ,4,12,2,1,5,200,0,0,0,7,IconEqunit_WazaSpeed,9,IconEqunit_Superrare_WazaSpeed,0,,8,Equnit_Super,1,0,10,9,0,1,4
+9,ハイパー はやわざ,4,12,2,1,5,100,0,0,0,7,IconEqunit_WazaSpeed,9,IconEqunit_Superrare_WazaSpeed,0,,8,Equnit_Hyper,1,0,11,9,0,1,4
+10,ノーマルわざプラス,5,1,1,3,2,300,0,0,1,7,IconEqunit_Type_NORMAL,9,IconEqunit_Common_Type_Normal,0,,8,Equnit_Common,0.85,1,12,0,0,1,6
+11,かくとうわざプラス,6,1,1,3,2,300,0,0,2,7,IconEqunit_Type_BATTLE,9,IconEqunit_Common_Type_Battle,0,,8,Equnit_Common,0.85,1,13,0,0,1,6
+12,ひこうわざプラス,7,1,1,3,2,300,0,0,3,7,IconEqunit_Type_HIKOU,9,IconEqunit_Common_Type_Hikou,0,,8,Equnit_Common,0.85,1,14,0,0,1,6
+13,どくわざプラス,8,1,1,3,2,300,0,0,4,7,IconEqunit_Type_POISON,9,IconEqunit_Common_Type_Poison,0,,8,Equnit_Common,0.85,1,15,0,0,1,6
+14,じめんわざプラス,9,1,1,3,2,300,0,0,5,7,IconEqunit_Type_JIMEN,9,IconEqunit_Common_Type_Jimen,0,,8,Equnit_Common,0.85,1,16,0,0,1,6
+15,いわわざプラス,10,1,1,3,2,300,0,0,6,7,IconEqunit_Type_IWA,9,IconEqunit_Common_Type_Iwa,0,,8,Equnit_Common,0.85,1,17,0,0,1,6
+16,むしわざプラス,11,1,1,3,2,300,0,0,7,7,IconEqunit_Type_MUSHI,9,IconEqunit_Common_Type_Mushi,0,,8,Equnit_Common,0.85,1,18,0,0,1,6
+17,ゴーストわざプラス,12,1,1,3,2,300,0,0,8,7,IconEqunit_Type_GHOST,9,IconEqunit_Common_Type_Ghost,0,,8,Equnit_Common,0.85,1,19,0,0,1,6
+18,はがねわざプラス,13,1,1,3,2,300,0,0,9,7,IconEqunit_Type_METAL,9,IconEqunit_Common_Type_Metal,0,,8,Equnit_Common,0.85,1,20,0,0,1,6
+19,ほのおわざプラス,14,1,1,3,2,300,0,0,10,7,IconEqunit_Type_FIRE,9,IconEqunit_Common_Type_Fire,0,,8,Equnit_Common,0.85,1,21,0,0,1,6
+20,みずわざプラス,15,1,1,3,2,300,0,0,11,7,IconEqunit_Type_WATER,9,IconEqunit_Common_Type_Water,0,,8,Equnit_Common,0.85,1,22,0,0,1,6
+21,くさわざプラス,16,1,1,3,2,300,0,0,12,7,IconEqunit_Type_KUSA,9,IconEqunit_Common_Type_Kusa,0,,8,Equnit_Common,0.85,1,23,0,0,1,6
+22,でんきわざプラス,17,1,1,3,2,300,0,0,13,7,IconEqunit_Type_ELECTRIC,9,IconEqunit_Common_Type_Electric,0,,8,Equnit_Common,0.85,1,24,0,0,1,6
+23,エスパーわざプラス,18,1,1,3,2,300,0,0,14,7,IconEqunit_Type_SP,9,IconEqunit_Common_Type_SP,0,,8,Equnit_Common,0.85,1,25,0,0,1,6
+24,こおりわざプラス,19,1,1,3,2,300,0,0,15,7,IconEqunit_Type_KOORI,9,IconEqunit_Common_Type_Koori,0,,8,Equnit_Common,0.85,1,26,0,0,1,6
+25,ドラゴンわざプラス,20,1,1,3,2,300,0,0,16,7,IconEqunit_Type_DRAGON,9,IconEqunit_Common_Type_Dragon,0,,8,Equnit_Common,0.85,1,27,0,0,1,6
+26,あくわざプラス,21,1,1,3,2,300,0,0,17,7,IconEqunit_Type_AKU,9,IconEqunit_Common_Type_Aku,0,,8,Equnit_Common,0.85,1,28,0,0,1,6
+27,フェアリーわざプラス,22,1,1,3,2,300,0,0,18,7,IconEqunit_Type_FAIRY,9,IconEqunit_Common_Type_Fairy,0,,8,Equnit_Common,0.85,1,29,0,0,1,6
+28,スーパー ノーマルわざプラス,5,2,2,3,2,200,0,0,1,7,IconEqunit_Type_NORMAL,9,IconEqunit_Superrare_Type_Normal,0,,8,Equnit_Super,0.85,0,30,0,0,1,6
+29,スーパー かくとうわざプラス,6,2,2,3,2,200,0,0,2,7,IconEqunit_Type_BATTLE,9,IconEqunit_Superrare_Type_Battle,0,,8,Equnit_Super,0.85,0,31,0,0,1,6
+30,スーパー ひこうわざプラス,7,2,2,3,2,200,0,0,3,7,IconEqunit_Type_HIKOU,9,IconEqunit_Superrare_Type_Hikou,0,,8,Equnit_Super,0.85,0,32,0,0,1,6
+31,スーパー どくわざプラス,8,2,2,3,2,200,0,0,4,7,IconEqunit_Type_POISON,9,IconEqunit_Superrare_Type_Poison,0,,8,Equnit_Super,0.85,0,33,0,0,1,6
+32,スーパー じめんわざプラス,9,2,2,3,2,200,0,0,5,7,IconEqunit_Type_JIMEN,9,IconEqunit_Superrare_Type_Jimen,0,,8,Equnit_Super,0.85,0,34,0,0,1,6
+33,スーパー いわわざプラス,10,2,2,3,2,200,0,0,6,7,IconEqunit_Type_IWA,9,IconEqunit_Superrare_Type_Iwa,0,,8,Equnit_Super,0.85,0,35,0,0,1,6
+34,スーパー むしわざプラス,11,2,2,3,2,200,0,0,7,7,IconEqunit_Type_MUSHI,9,IconEqunit_Superrare_Type_Mushi,0,,8,Equnit_Super,0.85,0,36,0,0,1,6
+35,スーパー ゴーストわざプラス,12,2,2,3,2,200,0,0,8,7,IconEqunit_Type_GHOST,9,IconEqunit_Superrare_Type_Ghost,0,,8,Equnit_Super,0.85,0,37,0,0,1,6
+36,スーパー はがねわざプラス,13,2,2,3,2,200,0,0,9,7,IconEqunit_Type_METAL,9,IconEqunit_Superrare_Type_Metal,0,,8,Equnit_Super,0.85,0,38,0,0,1,6
+37,スーパー ほのおわざプラス,14,2,2,3,2,200,0,0,10,7,IconEqunit_Type_FIRE,9,IconEqunit_Superrare_Type_Fire,0,,8,Equnit_Super,0.85,0,39,0,0,1,6
+38,スーパー みずわざプラス,15,2,2,3,2,200,0,0,11,7,IconEqunit_Type_WATER,9,IconEqunit_Superrare_Type_Water,0,,8,Equnit_Super,0.85,0,40,0,0,1,6
+39,スーパー くさわざプラス,16,2,2,3,2,200,0,0,12,7,IconEqunit_Type_KUSA,9,IconEqunit_Superrare_Type_Kusa,0,,8,Equnit_Super,0.85,0,41,0,0,1,6
+40,スーパー でんきわざプラス,17,2,2,3,2,200,0,0,13,7,IconEqunit_Type_ELECTRIC,9,IconEqunit_Superrare_Type_Electric,0,,8,Equnit_Super,0.85,0,42,0,0,1,6
+41,スーパー エスパーわざプラス,18,2,2,3,2,200,0,0,14,7,IconEqunit_Type_SP,9,IconEqunit_Superrare_Type_SP,0,,8,Equnit_Super,0.85,0,43,0,0,1,6
+42,スーパー こおりわざプラス,19,2,2,3,2,200,0,0,15,7,IconEqunit_Type_KOORI,9,IconEqunit_Superrare_Type_Koori,0,,8,Equnit_Super,0.85,0,44,0,0,1,6
+43,スーパー ドラゴンわざプラス,20,2,2,3,2,200,0,0,16,7,IconEqunit_Type_DRAGON,9,IconEqunit_Superrare_Type_Dragon,0,,8,Equnit_Super,0.85,0,45,0,0,1,6
+44,スーパー あくわざプラス,21,2,2,3,2,200,0,0,17,7,IconEqunit_Type_AKU,9,IconEqunit_Superrare_Type_Aku,0,,8,Equnit_Super,0.85,0,46,0,0,1,6
+45,スーパー フェアリーわざプラス,22,2,2,3,2,200,0,0,18,7,IconEqunit_Type_FAIRY,9,IconEqunit_Superrare_Type_Fairy,0,,8,Equnit_Super,0.85,0,47,0,0,1,6
+46,ハイパー ノーマルわざプラス,5,2,2,3,2,100,0,0,1,7,IconEqunit_Type_NORMAL,9,IconEqunit_Superrare_Type_Normal,0,,8,Equnit_Hyper,0.85,0,48,0,0,1,6
+47,ハイパー かくとうわざプラス,6,2,2,3,2,100,0,0,2,7,IconEqunit_Type_BATTLE,9,IconEqunit_Superrare_Type_Battle,0,,8,Equnit_Hyper,0.85,0,49,0,0,1,6
+48,ハイパー ひこうわざプラス,7,2,2,3,2,100,0,0,3,7,IconEqunit_Type_HIKOU,9,IconEqunit_Superrare_Type_Hikou,0,,8,Equnit_Hyper,0.85,0,50,0,0,1,6
+49,ハイパー どくわざプラス,8,2,2,3,2,100,0,0,4,7,IconEqunit_Type_POISON,9,IconEqunit_Superrare_Type_Poison,0,,8,Equnit_Hyper,0.85,0,51,0,0,1,6
+50,ハイパー じめんわざプラス,9,2,2,3,2,100,0,0,5,7,IconEqunit_Type_JIMEN,9,IconEqunit_Superrare_Type_Jimen,0,,8,Equnit_Hyper,0.85,0,52,0,0,1,6
+51,ハイパー いわわざプラス,10,2,2,3,2,100,0,0,6,7,IconEqunit_Type_IWA,9,IconEqunit_Superrare_Type_Iwa,0,,8,Equnit_Hyper,0.85,0,53,0,0,1,6
+52,ハイパー むしわざプラス,11,2,2,3,2,100,0,0,7,7,IconEqunit_Type_MUSHI,9,IconEqunit_Superrare_Type_Mushi,0,,8,Equnit_Hyper,0.85,0,54,0,0,1,6
+53,ハイパー ゴーストわざプラス,12,2,2,3,2,100,0,0,8,7,IconEqunit_Type_GHOST,9,IconEqunit_Superrare_Type_Ghost,0,,8,Equnit_Hyper,0.85,0,55,0,0,1,6
+54,ハイパー はがねわざプラス,13,2,2,3,2,100,0,0,9,7,IconEqunit_Type_METAL,9,IconEqunit_Superrare_Type_Metal,0,,8,Equnit_Hyper,0.85,0,56,0,0,1,6
+55,ハイパー ほのおわざプラス,14,2,2,3,2,100,0,0,10,7,IconEqunit_Type_FIRE,9,IconEqunit_Superrare_Type_Fire,0,,8,Equnit_Hyper,0.85,0,57,0,0,1,6
+56,ハイパー みずわざプラス,15,2,2,3,2,100,0,0,11,7,IconEqunit_Type_WATER,9,IconEqunit_Superrare_Type_Water,0,,8,Equnit_Hyper,0.85,0,58,0,0,1,6
+57,ハイパー くさわざプラス,16,2,2,3,2,100,0,0,12,7,IconEqunit_Type_KUSA,9,IconEqunit_Superrare_Type_Kusa,0,,8,Equnit_Hyper,0.85,0,59,0,0,1,6
+58,ハイパー でんきわざプラス,17,2,2,3,2,100,0,0,13,7,IconEqunit_Type_ELECTRIC,9,IconEqunit_Superrare_Type_Electric,0,,8,Equnit_Hyper,0.85,0,60,0,0,1,6
+59,ハイパー エスパーわざプラス,18,2,2,3,2,100,0,0,14,7,IconEqunit_Type_SP,9,IconEqunit_Superrare_Type_SP,0,,8,Equnit_Hyper,0.85,0,61,0,0,1,6
+60,ハイパー こおりわざプラス,19,2,2,3,2,100,0,0,15,7,IconEqunit_Type_KOORI,9,IconEqunit_Superrare_Type_Koori,0,,8,Equnit_Hyper,0.85,0,62,0,0,1,6
+61,ハイパー ドラゴンわざプラス,20,2,2,3,2,100,0,0,16,7,IconEqunit_Type_DRAGON,9,IconEqunit_Superrare_Type_Dragon,0,,8,Equnit_Hyper,0.85,0,63,0,0,1,6
+62,ハイパー あくわざプラス,21,2,2,3,2,100,0,0,17,7,IconEqunit_Type_AKU,9,IconEqunit_Superrare_Type_Aku,0,,8,Equnit_Hyper,0.85,0,64,0,0,1,6
+63,ハイパー フェアリーわざプラス,22,2,2,3,2,100,0,0,18,7,IconEqunit_Type_FAIRY,9,IconEqunit_Superrare_Type_Fairy,0,,8,Equnit_Hyper,0.85,0,65,0,0,1,6
+64,ノーマルわざアップ,23,1,1,0,2,300,0,0,1,7,IconEqunit_Type_NORMAL,9,IconEqunit_Common_Type_Normal,0,,8,Equnit_Common,1,0,66,0,0,1,0
+65,かくとうわざアップ,24,1,1,0,2,300,0,0,2,7,IconEqunit_Type_BATTLE,9,IconEqunit_Common_Type_Battle,0,,8,Equnit_Common,1,0,67,0,0,1,0
+66,ひこうわざアップ,25,1,1,0,2,300,0,0,3,7,IconEqunit_Type_HIKOU,9,IconEqunit_Common_Type_Hikou,0,,8,Equnit_Common,1,0,68,0,0,1,0
+67,どくわざアップ,26,1,1,0,2,300,0,0,4,7,IconEqunit_Type_POISON,9,IconEqunit_Common_Type_Poison,0,,8,Equnit_Common,1,0,69,0,0,1,0
+68,じめんわざアップ,27,1,1,0,2,300,0,0,5,7,IconEqunit_Type_JIMEN,9,IconEqunit_Common_Type_Jimen,0,,8,Equnit_Common,1,0,70,0,0,1,0
+69,いわわざアップ,28,1,1,0,2,300,0,0,6,7,IconEqunit_Type_IWA,9,IconEqunit_Common_Type_Iwa,0,,8,Equnit_Common,1,0,71,0,0,1,0
+70,むしわざアップ,29,1,1,0,2,300,0,0,7,7,IconEqunit_Type_MUSHI,9,IconEqunit_Common_Type_Mushi,0,,8,Equnit_Common,1,0,72,0,0,1,0
+71,ゴーストわざアップ,30,1,1,0,2,300,0,0,8,7,IconEqunit_Type_GHOST,9,IconEqunit_Common_Type_Ghost,0,,8,Equnit_Common,1,0,73,0,0,1,0
+72,はがねわざアップ,31,1,1,0,2,300,0,0,9,7,IconEqunit_Type_METAL,9,IconEqunit_Common_Type_Metal,0,,8,Equnit_Common,1,0,74,0,0,1,0
+73,ほのおわざアップ,32,1,1,0,2,300,0,0,10,7,IconEqunit_Type_FIRE,9,IconEqunit_Common_Type_Fire,0,,8,Equnit_Common,1,0,75,0,0,1,0
+74,みずわざアップ,33,1,1,0,2,300,0,0,11,7,IconEqunit_Type_WATER,9,IconEqunit_Common_Type_Water,0,,8,Equnit_Common,1,0,76,0,0,1,0
+75,くさわざアップ,34,1,1,0,2,300,0,0,12,7,IconEqunit_Type_KUSA,9,IconEqunit_Common_Type_Kusa,0,,8,Equnit_Common,1,0,77,0,0,1,0
+76,でんきわざアップ,35,1,1,0,2,300,0,0,13,7,IconEqunit_Type_ELECTRIC,9,IconEqunit_Common_Type_Electric,0,,8,Equnit_Common,1,0,78,0,0,1,0
+77,エスパーわざアップ,36,1,1,0,2,300,0,0,14,7,IconEqunit_Type_SP,9,IconEqunit_Common_Type_SP,0,,8,Equnit_Common,1,0,79,0,0,1,0
+78,こおりわざアップ,37,1,1,0,2,300,0,0,15,7,IconEqunit_Type_KOORI,9,IconEqunit_Common_Type_Koori,0,,8,Equnit_Common,1,0,80,0,0,1,0
+79,ドラゴンわざアップ,38,1,1,0,2,300,0,0,16,7,IconEqunit_Type_DRAGON,9,IconEqunit_Common_Type_Dragon,0,,8,Equnit_Common,1,0,81,0,0,1,0
+80,あくわざアップ,39,1,1,0,2,300,0,0,17,7,IconEqunit_Type_AKU,9,IconEqunit_Common_Type_Aku,0,,8,Equnit_Common,1,0,82,0,0,1,0
+81,フェアリーわざアップ,40,1,1,0,2,300,0,0,18,7,IconEqunit_Type_FAIRY,9,IconEqunit_Common_Type_Fairy,0,,8,Equnit_Common,1,0,83,0,0,1,0
+82,スーパー ノーマルわざアップ,23,2,2,0,2,200,0,0,1,7,IconEqunit_Type_NORMAL,9,IconEqunit_Superrare_Type_Normal,0,,8,Equnit_Super,1,0,84,0,0,1,0
+83,スーパー かくとうわざアップ,24,2,2,0,2,200,0,0,2,7,IconEqunit_Type_BATTLE,9,IconEqunit_Superrare_Type_Battle,0,,8,Equnit_Super,1,0,85,0,0,1,0
+84,スーパー ひこうわざアップ,25,2,2,0,2,200,0,0,3,7,IconEqunit_Type_HIKOU,9,IconEqunit_Superrare_Type_Hikou,0,,8,Equnit_Super,1,0,86,0,0,1,0
+85,スーパー どくわざアップ,26,2,2,0,2,200,0,0,4,7,IconEqunit_Type_POISON,9,IconEqunit_Superrare_Type_Poison,0,,8,Equnit_Super,1,0,87,0,0,1,0
+86,スーパー じめんわざアップ,27,2,2,0,2,200,0,0,5,7,IconEqunit_Type_JIMEN,9,IconEqunit_Superrare_Type_Jimen,0,,8,Equnit_Super,1,0,88,0,0,1,0
+87,スーパー いわわざアップ,28,2,2,0,2,200,0,0,6,7,IconEqunit_Type_IWA,9,IconEqunit_Superrare_Type_Iwa,0,,8,Equnit_Super,1,0,89,0,0,1,0
+88,スーパー むしわざアップ,29,2,2,0,2,200,0,0,7,7,IconEqunit_Type_MUSHI,9,IconEqunit_Superrare_Type_Mushi,0,,8,Equnit_Super,1,0,90,0,0,1,0
+89,スーパー ゴーストわざアップ,30,2,2,0,2,200,0,0,8,7,IconEqunit_Type_GHOST,9,IconEqunit_Superrare_Type_Ghost,0,,8,Equnit_Super,1,0,91,0,0,1,0
+90,スーパー はがねわざアップ,31,2,2,0,2,200,0,0,9,7,IconEqunit_Type_METAL,9,IconEqunit_Superrare_Type_Metal,0,,8,Equnit_Super,1,0,92,0,0,1,0
+91,スーパー ほのおわざアップ,32,2,2,0,2,200,0,0,10,7,IconEqunit_Type_FIRE,9,IconEqunit_Superrare_Type_Fire,0,,8,Equnit_Super,1,0,93,0,0,1,0
+92,スーパー みずわざアップ,33,2,2,0,2,200,0,0,11,7,IconEqunit_Type_WATER,9,IconEqunit_Superrare_Type_Water,0,,8,Equnit_Super,1,0,94,0,0,1,0
+93,スーパー くさわざアップ,34,2,2,0,2,200,0,0,12,7,IconEqunit_Type_KUSA,9,IconEqunit_Superrare_Type_Kusa,0,,8,Equnit_Super,1,0,95,0,0,1,0
+94,スーパー でんきわざアップ,35,2,2,0,2,200,0,0,13,7,IconEqunit_Type_ELECTRIC,9,IconEqunit_Superrare_Type_Electric,0,,8,Equnit_Super,1,0,96,0,0,1,0
+95,スーパー エスパーわざアップ,36,2,2,0,2,200,0,0,14,7,IconEqunit_Type_SP,9,IconEqunit_Superrare_Type_SP,0,,8,Equnit_Super,1,0,97,0,0,1,0
+96,スーパー こおりわざアップ,37,2,2,0,2,200,0,0,15,7,IconEqunit_Type_KOORI,9,IconEqunit_Superrare_Type_Koori,0,,8,Equnit_Super,1,0,98,0,0,1,0
+97,スーパー ドラゴンわざアップ,38,2,2,0,2,200,0,0,16,7,IconEqunit_Type_DRAGON,9,IconEqunit_Superrare_Type_Dragon,0,,8,Equnit_Super,1,0,99,0,0,1,0
+98,スーパー あくわざアップ,39,2,2,0,2,200,0,0,17,7,IconEqunit_Type_AKU,9,IconEqunit_Superrare_Type_Aku,0,,8,Equnit_Super,1,0,100,0,0,1,0
+99,スーパー フェアリーわざアップ,40,2,2,0,2,200,0,0,18,7,IconEqunit_Type_FAIRY,9,IconEqunit_Superrare_Type_Fairy,0,,8,Equnit_Super,1,0,101,0,0,1,0
+100,ハイパー ノーマルわざアップ,23,2,2,0,2,100,0,0,1,7,IconEqunit_Type_NORMAL,9,IconEqunit_Superrare_Type_Normal,0,,8,Equnit_Hyper,1,0,102,0,0,1,0
+101,ハイパー かくとうわざアップ,24,2,2,0,2,100,0,0,2,7,IconEqunit_Type_BATTLE,9,IconEqunit_Superrare_Type_Battle,0,,8,Equnit_Hyper,1,0,103,0,0,1,0
+102,ハイパー ひこうわざアップ,25,2,2,0,2,100,0,0,3,7,IconEqunit_Type_HIKOU,9,IconEqunit_Superrare_Type_Hikou,0,,8,Equnit_Hyper,1,0,104,0,0,1,0
+103,ハイパー どくわざアップ,26,2,2,0,2,100,0,0,4,7,IconEqunit_Type_POISON,9,IconEqunit_Superrare_Type_Poison,0,,8,Equnit_Hyper,1,0,105,0,0,1,0
+104,ハイパー じめんわざアップ,27,2,2,0,2,100,0,0,5,7,IconEqunit_Type_JIMEN,9,IconEqunit_Superrare_Type_Jimen,0,,8,Equnit_Hyper,1,0,106,0,0,1,0
+105,ハイパー いわわざアップ,28,2,2,0,2,100,0,0,6,7,IconEqunit_Type_IWA,9,IconEqunit_Superrare_Type_Iwa,0,,8,Equnit_Hyper,1,0,107,0,0,1,0
+106,ハイパー むしわざアップ,29,2,2,0,2,100,0,0,7,7,IconEqunit_Type_MUSHI,9,IconEqunit_Superrare_Type_Mushi,0,,8,Equnit_Hyper,1,0,108,0,0,1,0
+107,ハイパー ゴーストわざアップ,30,2,2,0,2,100,0,0,8,7,IconEqunit_Type_GHOST,9,IconEqunit_Superrare_Type_Ghost,0,,8,Equnit_Hyper,1,0,109,0,0,1,0
+108,ハイパー はがねわざアップ,31,2,2,0,2,100,0,0,9,7,IconEqunit_Type_METAL,9,IconEqunit_Superrare_Type_Metal,0,,8,Equnit_Hyper,1,0,110,0,0,1,0
+109,ハイパー ほのおわざアップ,32,2,2,0,2,100,0,0,10,7,IconEqunit_Type_FIRE,9,IconEqunit_Superrare_Type_Fire,0,,8,Equnit_Hyper,1,0,111,0,0,1,0
+110,ハイパー みずわざアップ,33,2,2,0,2,100,0,0,11,7,IconEqunit_Type_WATER,9,IconEqunit_Superrare_Type_Water,0,,8,Equnit_Hyper,1,0,112,0,0,1,0
+111,ハイパー くさわざアップ,34,2,2,0,2,100,0,0,12,7,IconEqunit_Type_KUSA,9,IconEqunit_Superrare_Type_Kusa,0,,8,Equnit_Hyper,1,0,113,0,0,1,0
+112,ハイパー でんきわざアップ,35,2,2,0,2,100,0,0,13,7,IconEqunit_Type_ELECTRIC,9,IconEqunit_Superrare_Type_Electric,0,,8,Equnit_Hyper,1,0,114,0,0,1,0
+113,ハイパー エスパーわざアップ,36,2,2,0,2,100,0,0,14,7,IconEqunit_Type_SP,9,IconEqunit_Superrare_Type_SP,0,,8,Equnit_Hyper,1,0,115,0,0,1,0
+114,ハイパー こおりわざアップ,37,2,2,0,2,100,0,0,15,7,IconEqunit_Type_KOORI,9,IconEqunit_Superrare_Type_Koori,0,,8,Equnit_Hyper,1,0,116,0,0,1,0
+115,ハイパー ドラゴンわざアップ,38,2,2,0,2,100,0,0,16,7,IconEqunit_Type_DRAGON,9,IconEqunit_Superrare_Type_Dragon,0,,8,Equnit_Hyper,1,0,117,0,0,1,0
+116,ハイパー あくわざアップ,39,2,2,0,2,100,0,0,17,7,IconEqunit_Type_AKU,9,IconEqunit_Superrare_Type_Aku,0,,8,Equnit_Hyper,1,0,118,0,0,1,0
+117,ハイパー フェアリーわざアップ,40,2,2,0,2,100,0,0,18,7,IconEqunit_Type_FAIRY,9,IconEqunit_Superrare_Type_Fairy,0,,8,Equnit_Hyper,1,0,119,0,0,1,0
+118,アタックプラス,63,10,1,3,1,100,0,0,0,7,IconEqunit_Attack,9,IconEqunit_Common_Attack,0,,8,Equnit_Common,0.85,0,182,0,0,1,0
+119,ロングレンジ,64,12,1,1,1,300,0,0,0,7,IconEqunit_LONG_RANGE,9,IconEqunit_Common_LONG_RANGE,0,,8,Equnit_Common,1,0,183,184,0,1,4
+120,ショートレンジ,65,12,1,1,1,300,0,0,0,7,IconEqunit_SHORT_RANGE,9,IconEqunit_Common_SHORT_RANGE,0,,8,Equnit_Common,1,0,185,186,0,1,4
+121,クリティカル,42,7,1,0,1,300,0,0,0,7,IconEqunit_CriticalUp,9,IconEqunit_Common_Critical,0,,8,Equnit_Common,1,1,120,0,0,0,0
+122,スーパー クリティカル,42,8,2,0,1,200,0,0,0,7,IconEqunit_CriticalUp,9,IconEqunit_Superrare_Critical,0,,8,Equnit_Super,1,0,121,0,0,0,0
+123,ハイパー クリティカル,42,9,2,0,1,100,0,0,0,7,IconEqunit_CriticalUp,9,IconEqunit_Superrare_Critical,0,,8,Equnit_Hyper,1,0,122,0,0,0,0
+124,ノーマルわざスマッシュ,43,7,1,0,2,300,0,0,1,7,IconEqunit_Smash_NORMAL,9,IconEqunit_Common_Smash_Normal,0,,8,Equnit_Common,1,0,123,0,0,0,0
+125,かくとうわざスマッシュ,44,7,1,0,2,300,0,0,2,7,IconEqunit_Smash_BATTLE,9,IconEqunit_Common_Smash_Battle,0,,8,Equnit_Common,1,0,124,0,0,0,0
+126,ひこうわざスマッシュ,45,7,1,0,2,300,0,0,3,7,IconEqunit_Smash_HIKOU,9,IconEqunit_Common_Smash_Hikou,0,,8,Equnit_Common,1,0,125,0,0,0,0
+127,どくわざスマッシュ,46,7,1,0,2,300,0,0,4,7,IconEqunit_Smash_POISON,9,IconEqunit_Common_Smash_Poison,0,,8,Equnit_Common,1,0,126,0,0,0,0
+128,じめんわざスマッシュ,47,7,1,0,2,300,0,0,5,7,IconEqunit_Smash_JIMEN,9,IconEqunit_Common_Smash_Jimen,0,,8,Equnit_Common,1,0,127,0,0,0,0
+129,いわわざスマッシュ,48,7,1,0,2,300,0,0,6,7,IconEqunit_Smash_IWA,9,IconEqunit_Common_Smash_Iwa,0,,8,Equnit_Common,1,0,128,0,0,0,0
+130,むしわざスマッシュ,49,7,1,0,2,300,0,0,7,7,IconEqunit_Smash_MUSHI,9,IconEqunit_Common_Smash_Mushi,0,,8,Equnit_Common,1,0,129,0,0,0,0
+131,ゴーストわざスマッシュ,50,7,1,0,2,300,0,0,8,7,IconEqunit_Smash_GHOST,9,IconEqunit_Common_Smash_Ghost,0,,8,Equnit_Common,1,0,130,0,0,0,0
+132,はがねわざスマッシュ,51,7,1,0,2,300,0,0,9,7,IconEqunit_Smash_METAL,9,IconEqunit_Common_Smash_Metal,0,,8,Equnit_Common,1,0,131,0,0,0,0
+133,ほのおわざスマッシュ,52,7,1,0,2,300,0,0,10,7,IconEqunit_Smash_FIRE,9,IconEqunit_Common_Smash_Fire,0,,8,Equnit_Common,1,0,132,0,0,0,0
+134,みずわざスマッシュ,53,7,1,0,2,300,0,0,11,7,IconEqunit_Smash_WATER,9,IconEqunit_Common_Smash_Water,0,,8,Equnit_Common,1,0,133,0,0,0,0
+135,くさわざスマッシュ,54,7,1,0,2,300,0,0,12,7,IconEqunit_Smash_KUSA,9,IconEqunit_Common_Smash_Kusa,0,,8,Equnit_Common,1,0,134,0,0,0,0
+136,でんきわざスマッシュ,55,7,1,0,2,300,0,0,13,7,IconEqunit_Smash_ELECTRIC,9,IconEqunit_Common_Smash_Electric,0,,8,Equnit_Common,1,0,135,0,0,0,0
+137,エスパーわざスマッシュ,56,7,1,0,2,300,0,0,14,7,IconEqunit_Smash_SP,9,IconEqunit_Common_Smash_SP,0,,8,Equnit_Common,1,0,136,0,0,0,0
+138,こおりわざスマッシュ,57,7,1,0,2,300,0,0,15,7,IconEqunit_Smash_KOORI,9,IconEqunit_Common_Smash_Koori,0,,8,Equnit_Common,1,0,137,0,0,0,0
+139,ドラゴンわざスマッシュ,58,7,1,0,2,300,0,0,16,7,IconEqunit_Smash_DRAGON,9,IconEqunit_Common_Smash_Dragon,0,,8,Equnit_Common,1,0,138,0,0,0,0
+140,あくわざスマッシュ,59,7,1,0,2,300,0,0,17,7,IconEqunit_Smash_AKU,9,IconEqunit_Common_Smash_Aku,0,,8,Equnit_Common,1,0,139,0,0,0,0
+141,フェアリーわざスマッシュ,60,7,1,0,2,300,0,0,18,7,IconEqunit_Smash_FAIRY,9,IconEqunit_Common_Smash_Fairy,0,,8,Equnit_Common,1,0,140,0,0,0,0
+142,スーパー ノーマルわざスマッシュ,43,8,2,0,2,200,0,0,1,7,IconEqunit_Smash_NORMAL,9,IconEqunit_Superrare_Smash_Normal,0,,8,Equnit_Super,1,0,141,0,0,0,0
+143,スーパー かくとうわざスマッシュ,44,8,2,0,2,200,0,0,2,7,IconEqunit_Smash_BATTLE,9,IconEqunit_Superrare_Smash_Battle,0,,8,Equnit_Super,1,0,142,0,0,0,0
+144,スーパー ひこうわざスマッシュ,45,8,2,0,2,200,0,0,3,7,IconEqunit_Smash_HIKOU,9,IconEqunit_Superrare_Smash_Hikou,0,,8,Equnit_Super,1,0,143,0,0,0,0
+145,スーパー どくわざスマッシュ,46,8,2,0,2,200,0,0,4,7,IconEqunit_Smash_POISON,9,IconEqunit_Superrare_Smash_Poison,0,,8,Equnit_Super,1,0,144,0,0,0,0
+146,スーパー じめんわざスマッシュ,47,8,2,0,2,200,0,0,5,7,IconEqunit_Smash_JIMEN,9,IconEqunit_Superrare_Smash_Jimen,0,,8,Equnit_Super,1,0,145,0,0,0,0
+147,スーパー いわわざスマッシュ,48,8,2,0,2,200,0,0,6,7,IconEqunit_Smash_IWA,9,IconEqunit_Superrare_Smash_Iwa,0,,8,Equnit_Super,1,0,146,0,0,0,0
+148,スーパー むしわざスマッシュ,49,8,2,0,2,200,0,0,7,7,IconEqunit_Smash_MUSHI,9,IconEqunit_Superrare_Smash_Mushi,0,,8,Equnit_Super,1,0,147,0,0,0,0
+149,スーパー ゴーストわざスマッシュ,50,8,2,0,2,200,0,0,8,7,IconEqunit_Smash_GHOST,9,IconEqunit_Superrare_Smash_Ghost,0,,8,Equnit_Super,1,0,148,0,0,0,0
+150,スーパー はがねわざスマッシュ,51,8,2,0,2,200,0,0,9,7,IconEqunit_Smash_METAL,9,IconEqunit_Superrare_Smash_Metal,0,,8,Equnit_Super,1,0,149,0,0,0,0
+151,スーパー ほのおわざスマッシュ,52,8,2,0,2,200,0,0,10,7,IconEqunit_Smash_FIRE,9,IconEqunit_Superrare_Smash_Fire,0,,8,Equnit_Super,1,0,150,0,0,0,0
+152,スーパー みずわざスマッシュ,53,8,2,0,2,200,0,0,11,7,IconEqunit_Smash_WATER,9,IconEqunit_Superrare_Smash_Water,0,,8,Equnit_Super,1,0,151,0,0,0,0
+153,スーパー くさわざスマッシュ,54,8,2,0,2,200,0,0,12,7,IconEqunit_Smash_KUSA,9,IconEqunit_Superrare_Smash_Kusa,0,,8,Equnit_Super,1,0,152,0,0,0,0
+154,スーパー でんきわざスマッシュ,55,8,2,0,2,200,0,0,13,7,IconEqunit_Smash_ELECTRIC,9,IconEqunit_Superrare_Smash_Electric,0,,8,Equnit_Super,1,0,153,0,0,0,0
+155,スーパー エスパーわざスマッシュ,56,8,2,0,2,200,0,0,14,7,IconEqunit_Smash_SP,9,IconEqunit_Superrare_Smash_SP,0,,8,Equnit_Super,1,0,154,0,0,0,0
+156,スーパー こおりわざスマッシュ,57,8,2,0,2,200,0,0,15,7,IconEqunit_Smash_KOORI,9,IconEqunit_Superrare_Smash_Koori,0,,8,Equnit_Super,1,0,155,0,0,0,0
+157,スーパー ドラゴンわざスマッシュ,58,8,2,0,2,200,0,0,16,7,IconEqunit_Smash_DRAGON,9,IconEqunit_Superrare_Smash_Dragon,0,,8,Equnit_Super,1,0,156,0,0,0,0
+158,スーパー あくわざスマッシュ,59,8,2,0,2,200,0,0,17,7,IconEqunit_Smash_AKU,9,IconEqunit_Superrare_Smash_Aku,0,,8,Equnit_Super,1,0,157,0,0,0,0
+159,スーパー フェアリーわざスマッシュ,60,8,2,0,2,200,0,0,18,7,IconEqunit_Smash_FAIRY,9,IconEqunit_Superrare_Smash_Fairy,0,,8,Equnit_Super,1,0,158,0,0,0,0
+160,ハイパー ノーマルわざスマッシュ,43,9,2,0,2,100,0,0,1,7,IconEqunit_Smash_NORMAL,9,IconEqunit_Superrare_Smash_Normal,0,,8,Equnit_Hyper,1,0,159,0,0,0,0
+161,ハイパー かくとうわざスマッシュ,44,9,2,0,2,100,0,0,2,7,IconEqunit_Smash_BATTLE,9,IconEqunit_Superrare_Smash_Battle,0,,8,Equnit_Hyper,1,0,160,0,0,0,0
+162,ハイパー ひこうわざスマッシュ,45,9,2,0,2,100,0,0,3,7,IconEqunit_Smash_HIKOU,9,IconEqunit_Superrare_Smash_Hikou,0,,8,Equnit_Hyper,1,0,161,0,0,0,0
+163,ハイパー どくわざスマッシュ,46,9,2,0,2,100,0,0,4,7,IconEqunit_Smash_POISON,9,IconEqunit_Superrare_Smash_Poison,0,,8,Equnit_Hyper,1,0,162,0,0,0,0
+164,ハイパー じめんわざスマッシュ,47,9,2,0,2,100,0,0,5,7,IconEqunit_Smash_JIMEN,9,IconEqunit_Superrare_Smash_Jimen,0,,8,Equnit_Hyper,1,0,163,0,0,0,0
+165,ハイパー いわわざスマッシュ,48,9,2,0,2,100,0,0,6,7,IconEqunit_Smash_IWA,9,IconEqunit_Superrare_Smash_Iwa,0,,8,Equnit_Hyper,1,0,164,0,0,0,0
+166,ハイパー むしわざスマッシュ,49,9,2,0,2,100,0,0,7,7,IconEqunit_Smash_MUSHI,9,IconEqunit_Superrare_Smash_Mushi,0,,8,Equnit_Hyper,1,0,165,0,0,0,0
+167,ハイパー ゴーストわざスマッシュ,50,9,2,0,2,100,0,0,8,7,IconEqunit_Smash_GHOST,9,IconEqunit_Superrare_Smash_Ghost,0,,8,Equnit_Hyper,1,0,166,0,0,0,0
+168,ハイパー はがねわざスマッシュ,51,9,2,0,2,100,0,0,9,7,IconEqunit_Smash_METAL,9,IconEqunit_Superrare_Smash_Metal,0,,8,Equnit_Hyper,1,0,167,0,0,0,0
+169,ハイパー ほのおわざスマッシュ,52,9,2,0,2,100,0,0,10,7,IconEqunit_Smash_FIRE,9,IconEqunit_Superrare_Smash_Fire,0,,8,Equnit_Hyper,1,0,168,0,0,0,0
+170,ハイパー みずわざスマッシュ,53,9,2,0,2,100,0,0,11,7,IconEqunit_Smash_WATER,9,IconEqunit_Superrare_Smash_Water,0,,8,Equnit_Hyper,1,0,169,0,0,0,0
+171,ハイパー くさわざスマッシュ,54,9,2,0,2,100,0,0,12,7,IconEqunit_Smash_KUSA,9,IconEqunit_Superrare_Smash_Kusa,0,,8,Equnit_Hyper,1,0,170,0,0,0,0
+172,ハイパー でんきわざスマッシュ,55,9,2,0,2,100,0,0,13,7,IconEqunit_Smash_ELECTRIC,9,IconEqunit_Superrare_Smash_Electric,0,,8,Equnit_Hyper,1,0,171,0,0,0,0
+173,ハイパー エスパーわざスマッシュ,56,9,2,0,2,100,0,0,14,7,IconEqunit_Smash_SP,9,IconEqunit_Superrare_Smash_SP,0,,8,Equnit_Hyper,1,0,172,0,0,0,0
+174,ハイパー こおりわざスマッシュ,57,9,2,0,2,100,0,0,15,7,IconEqunit_Smash_KOORI,9,IconEqunit_Superrare_Smash_Koori,0,,8,Equnit_Hyper,1,0,173,0,0,0,0
+175,ハイパー ドラゴンわざスマッシュ,58,9,2,0,2,100,0,0,16,7,IconEqunit_Smash_DRAGON,9,IconEqunit_Superrare_Smash_Dragon,0,,8,Equnit_Hyper,1,0,174,0,0,0,0
+176,ハイパー あくわざスマッシュ,59,9,2,0,2,100,0,0,17,7,IconEqunit_Smash_AKU,9,IconEqunit_Superrare_Smash_Aku,0,,8,Equnit_Hyper,1,0,175,0,0,0,0
+177,ハイパー フェアリーわざスマッシュ,60,9,2,0,2,100,0,0,18,7,IconEqunit_Smash_FAIRY,9,IconEqunit_Superrare_Smash_Fairy,0,,8,Equnit_Hyper,1,0,176,0,0,0,0
+178,ためアップ,61,12,1,1,1,300,0,0,0,7,IconEqunit_Tame,9,IconEqunit_Common_Tame,0,,8,Equnit_Common,1,1,177,178,0,0,4
+179,スーパー ためアップ,61,12,2,1,1,200,0,0,0,7,IconEqunit_Tame,9,IconEqunit_Superrare_Tame,0,,8,Equnit_Super,1,0,179,178,0,0,4
+180,ハイパー ためアップ,61,12,2,1,1,100,0,0,0,7,IconEqunit_Tame,9,IconEqunit_Superrare_Tame,0,,8,Equnit_Hyper,1,0,180,178,0,0,4
+181,オート,62,7,1,0,5,300,0,0,0,7,IconEqunit_Auto,9,IconEqunit_Common_Auto,0,,8,Equnit_Common,1,0,181,0,0,0,0
+182,ミュウツープラス,66,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,33,150_U_00,8,Equnit_Common,1,0,190,187,178,0,3
+183,グソクムシャプラス,67,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,39,768_U_00,8,Equnit_Common,1,0,191,187,7,0,3
+184,フシギバナプラス,68,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,33,003_M_00,8,Equnit_Common,1,0,192,187,119,0,3
+185,リザードンプラス,69,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,33,006_U_00,8,Equnit_Common,1,0,193,187,120,0,3
+186,カメックスプラス,70,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,33,009_U_00,8,Equnit_Common,1,0,194,187,178,0,3
+187,ゲッコウガプラス,71,13,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,38,658_U_00,8,Equnit_Common,1,0,195,188,178,0,3
+188,N_DUMMY_188,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+189,N_DUMMY_189,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+190,N_DUMMY_190,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+191,N_DUMMY_191,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+192,N_DUMMY_192,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+193,N_DUMMY_193,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+194,N_DUMMY_194,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+195,N_DUMMY_195,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+196,N_DUMMY_196,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+197,N_DUMMY_197,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+198,N_DUMMY_198,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+199,N_DUMMY_199,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+200,N_DUMMY_200,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+201,N_DUMMY_201,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+202,N_DUMMY_202,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+203,N_DUMMY_203,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+204,N_DUMMY_204,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+205,N_DUMMY_205,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+206,N_DUMMY_206,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+207,N_DUMMY_207,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+208,N_DUMMY_208,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+209,N_DUMMY_209,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+210,N_DUMMY_210,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+211,N_DUMMY_211,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+212,N_DUMMY_212,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+213,N_DUMMY_213,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+214,N_DUMMY_214,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+215,N_DUMMY_215,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+216,N_DUMMY_216,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+217,N_DUMMY_217,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+218,N_DUMMY_218,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+219,N_DUMMY_219,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+220,N_DUMMY_220,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+221,N_DUMMY_221,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+222,N_DUMMY_222,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+223,N_DUMMY_223,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+224,N_DUMMY_224,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+225,N_DUMMY_225,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+226,N_DUMMY_226,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+227,N_DUMMY_227,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+228,N_DUMMY_228,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+229,N_DUMMY_229,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+230,N_DUMMY_230,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+231,N_DUMMY_231,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+232,N_DUMMY_232,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+233,N_DUMMY_233,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+234,N_DUMMY_234,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+235,N_DUMMY_235,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+236,N_DUMMY_236,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+237,N_DUMMY_237,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+238,N_DUMMY_238,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+239,N_DUMMY_239,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+240,N_DUMMY_240,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+241,N_DUMMY_241,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+242,N_DUMMY_242,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+243,N_DUMMY_243,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+244,N_DUMMY_244,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+245,N_DUMMY_245,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+246,N_DUMMY_246,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+247,N_DUMMY_247,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+248,N_DUMMY_248,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+249,N_DUMMY_249,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+250,N_DUMMY_250,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+251,N_DUMMY_251,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+252,N_DUMMY_252,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+253,N_DUMMY_253,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+254,N_DUMMY_254,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+255,N_DUMMY_255,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+256,N_DUMMY_256,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+257,N_DUMMY_257,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+258,N_DUMMY_258,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+259,N_DUMMY_259,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+260,N_DUMMY_260,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+261,N_DUMMY_261,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+262,N_DUMMY_262,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+263,N_DUMMY_263,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+264,N_DUMMY_264,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+265,N_DUMMY_265,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+266,N_DUMMY_266,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+267,N_DUMMY_267,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+268,N_DUMMY_268,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+269,N_DUMMY_269,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+270,N_DUMMY_270,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+271,N_DUMMY_271,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+272,N_DUMMY_272,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+273,N_DUMMY_273,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+274,N_DUMMY_274,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+275,N_DUMMY_275,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+276,N_DUMMY_276,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+277,N_DUMMY_277,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+278,N_DUMMY_278,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+279,N_DUMMY_279,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+280,N_DUMMY_280,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+281,N_DUMMY_281,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+282,N_DUMMY_282,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+283,N_DUMMY_283,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+284,N_DUMMY_284,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+285,N_DUMMY_285,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+286,N_DUMMY_286,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+287,N_DUMMY_287,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+288,N_DUMMY_288,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+289,N_DUMMY_289,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+290,N_DUMMY_290,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+291,N_DUMMY_291,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+292,N_DUMMY_292,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+293,N_DUMMY_293,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+294,N_DUMMY_294,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+295,N_DUMMY_295,0,0,0,0,0,0,0,0,0,7,IconEqunit_Type_NORMAL,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+296,SPアシストパワー,99,14,1,4,4,300,0,148,14,7,IconEqunit_SP_ASISUTOPAWAA_R,9,IconEqunit_SP_ASISUTOPAWAA_R,0,,8,Equnit_Placeholder,1,1,384,0,0,0,0
+297,SPアシストパワー,99,15,2,4,4,200,105,149,14,7,IconEqunit_SP_ASISUTOPAWAA_SR,9,IconEqunit_SP_ASISUTOPAWAA_SR,0,,8,Equnit_Placeholder,1,1,385,0,0,0,0
+298,SPぎんいろのかぜ,100,14,1,4,4,300,0,150,7,7,IconEqunit_SP_GINIRONOKAZE_R,9,IconEqunit_SP_GINIRONOKAZE_R,0,,8,Equnit_Placeholder,1,1,386,0,0,0,0
+299,SPぎんいろのかぜ,100,15,2,4,4,200,110,151,7,7,IconEqunit_SP_GINIRONOKAZE_SR,9,IconEqunit_SP_GINIRONOKAZE_SR,0,,8,Equnit_Placeholder,1,1,387,0,0,0,0
+300,SPかえんほうしゃ,101,3,1,4,4,300,0,1,10,7,IconEqunit_SP_KAENHOUSYA_R,9,IconEqunit_SP_KAENHOUSYA_R,0,,8,Equnit_Placeholder,1,1,237,0,0,0,2
+301,SPかえんほうしゃ,101,4,2,4,4,200,101,2,10,7,IconEqunit_SP_KAENHOUSYA_SR,9,IconEqunit_SP_KAENHOUSYA_SR,0,,8,Equnit_Placeholder,1,1,238,0,0,0,1
+302,SPうずしお,102,5,1,4,4,300,0,3,11,7,IconEqunit_SP_UZUSIO_R,9,IconEqunit_SP_UZUSIO_R,0,,8,Equnit_Placeholder,1,1,239,0,0,0,2
+303,SPうずしお,102,15,2,4,4,200,103,4,11,7,IconEqunit_SP_UZUSIO_SR,9,IconEqunit_SP_UZUSIO_SR,0,,8,Equnit_Placeholder,1,1,240,0,0,0,1
+304,SPボルテッカー,103,14,1,4,4,300,0,5,13,7,IconEqunit_SP_BORUTEKKAA_R,9,IconEqunit_SP_BORUTEKKAA_R,0,,8,Equnit_Placeholder,1,1,241,0,0,0,2
+305,SPボルテッカー,103,15,2,4,4,200,104,6,13,7,IconEqunit_SP_BORUTEKKAA_SR,9,IconEqunit_SP_BORUTEKKAA_SR,0,,8,Equnit_Placeholder,1,1,242,0,0,0,1
+306,SPはっぱカッター,104,14,1,4,4,300,0,7,12,7,IconEqunit_SP_HAPPAKATTAA_R,9,IconEqunit_SP_HAPPAKATTAA_R,0,,8,Equnit_Placeholder,1,1,243,0,0,0,2
+307,SPはっぱカッター,104,15,2,4,4,200,110,8,12,7,IconEqunit_SP_HAPPAKATTAA_SR,9,IconEqunit_SP_HAPPAKATTAA_SR,0,,8,Equnit_Placeholder,1,1,244,0,0,0,1
+308,SPばくれつパンチ,105,5,1,4,4,300,0,9,2,7,IconEqunit_SP_BAKURETUPANTI_R,9,IconEqunit_SP_BAKURETUPANTI_R,0,,8,Equnit_Placeholder,1,1,245,0,0,0,2
+309,SPばくれつパンチ,105,15,2,4,4,200,107,10,2,7,IconEqunit_SP_BAKURETUPANTI_SR,9,IconEqunit_SP_BAKURETUPANTI_SR,0,,8,Equnit_Placeholder,1,1,246,0,0,0,1
+310,SPだいばくはつ,106,5,1,4,4,300,0,11,1,7,IconEqunit_SP_DAIBAKUHATU_R,9,IconEqunit_SP_DAIBAKUHATU_R,0,,8,Equnit_Placeholder,1,1,247,0,0,0,2
+311,SPだいばくはつ,106,6,2,4,4,200,110,12,1,7,IconEqunit_SP_DAIBAKUHATU_SR,9,IconEqunit_SP_DAIBAKUHATU_SR,0,,8,Equnit_Placeholder,1,1,248,0,0,0,1
+312,SPヘドロウェーブ,107,5,1,4,4,300,0,13,4,7,IconEqunit_SP_HEDOROWHEEBU_R,9,IconEqunit_SP_HEDOROWHEEBU_R,0,,8,Equnit_Placeholder,1,1,249,0,0,0,2
+313,SPヘドロウェーブ,107,15,2,4,4,200,102,14,4,7,IconEqunit_SP_HEDOROWHEEBU_SR,9,IconEqunit_SP_HEDOROWHEEBU_SR,0,,8,Equnit_Placeholder,1,1,250,0,0,0,1
+314,SPつばさでうつ,108,3,1,4,4,300,0,15,3,7,IconEqunit_SP_TUBASADEUTU_R,9,IconEqunit_SP_TUBASADEUTU_R,0,,8,Equnit_Placeholder,1,1,251,0,0,0,2
+315,SPつばさでうつ,108,4,2,4,4,200,112,16,3,7,IconEqunit_SP_TUBASADEUTU_SR,9,IconEqunit_SP_TUBASADEUTU_SR,0,,8,Equnit_Placeholder,1,1,252,0,0,0,1
+316,SPサイコキネシス,109,3,1,4,4,300,0,17,14,7,IconEqunit_SP_SAIKOKINESISU_R,9,IconEqunit_SP_SAIKOKINESISU_R,0,,8,Equnit_Placeholder,1,1,253,0,0,0,2
+317,SPサイコキネシス,109,4,2,4,4,200,109,18,14,7,IconEqunit_SP_SAIKOKINESISU_SR,9,IconEqunit_SP_SAIKOKINESISU_SR,0,,8,Equnit_Placeholder,1,1,254,0,0,0,1
+318,SPマグニチュード,110,14,1,4,4,300,0,19,5,7,IconEqunit_SP_MAGUNITYUUDO_R,9,IconEqunit_SP_MAGUNITYUUDO_R,0,,8,Equnit_Placeholder,1,1,255,0,0,0,2
+319,SPマグニチュード,110,15,2,4,4,200,115,20,5,7,IconEqunit_SP_MAGUNITYUUDO_SR,9,IconEqunit_SP_MAGUNITYUUDO_SR,0,,8,Equnit_Placeholder,1,1,256,0,0,0,1
+320,SPシグナルビーム,111,5,1,4,4,300,0,21,7,7,IconEqunit_SP_SIGUNARUBIIMU_R,9,IconEqunit_SP_SIGUNARUBIIMU_R,0,,8,Equnit_Placeholder,1,1,257,0,0,0,2
+321,SPシグナルビーム,111,6,2,4,4,200,107,22,7,7,IconEqunit_SP_SIGUNARUBIIMU_SR,9,IconEqunit_SP_SIGUNARUBIIMU_SR,0,,8,Equnit_Placeholder,1,1,258,0,0,0,1
+322,SPロックブラスト,112,5,1,4,4,300,0,23,6,7,IconEqunit_SP_ROKKUBURASUTO_R,9,IconEqunit_SP_ROKKUBURASUTO_R,0,,8,Equnit_Placeholder,1,1,259,0,0,0,2
+323,SPロックブラスト,112,6,2,4,4,200,113,24,6,7,IconEqunit_SP_ROKKUBURASUTO_SR,9,IconEqunit_SP_ROKKUBURASUTO_SR,0,,8,Equnit_Placeholder,1,1,260,0,0,0,1
+324,SPれいとうビーム,113,3,1,4,4,300,0,25,15,7,IconEqunit_SP_REITOUBIIMU_R,9,IconEqunit_SP_REITOUBIIMU_R,0,,8,Equnit_Placeholder,1,1,261,0,0,0,2
+325,SPれいとうビーム,113,4,2,4,4,200,106,26,15,7,IconEqunit_SP_REITOUBIIMU_SR,9,IconEqunit_SP_REITOUBIIMU_SR,0,,8,Equnit_Placeholder,1,1,262,0,0,0,1
+326,SPこおりのつぶて,114,3,1,4,4,300,0,27,15,7,IconEqunit_SP_KOORINOTUBUTE_R,9,IconEqunit_SP_KOORINOTUBUTE_R,0,,8,Equnit_Placeholder,1,1,263,0,0,0,2
+327,SPこおりのつぶて,114,4,2,4,4,200,114,28,15,7,IconEqunit_SP_KOORINOTUBUTE_SR,9,IconEqunit_SP_KOORINOTUBUTE_SR,0,,8,Equnit_Placeholder,1,1,264,0,0,0,1
+328,SPドラゴンダイブ,115,3,1,4,4,300,0,29,16,7,IconEqunit_SP_DORAGONDAIBU_R,9,IconEqunit_SP_DORAGONDAIBU_R,0,,8,Equnit_Placeholder,1,1,265,0,0,0,2
+329,SPドラゴンダイブ,115,4,2,4,4,200,105,30,16,7,IconEqunit_SP_DORAGONDAIBU_SR,9,IconEqunit_SP_DORAGONDAIBU_SR,0,,8,Equnit_Placeholder,1,1,266,0,0,0,1
+330,SPかみくだく,116,3,1,4,4,300,0,31,17,7,IconEqunit_SP_KAMIKUDAKU_R,9,IconEqunit_SP_KAMIKUDAKU_R,0,,8,Equnit_Placeholder,1,1,267,0,0,0,2
+331,SPかみくだく,116,4,2,4,4,200,109,32,17,7,IconEqunit_SP_KAMIKUDAKU_SR,9,IconEqunit_SP_KAMIKUDAKU_SR,0,,8,Equnit_Placeholder,1,1,268,0,0,0,1
+332,SPラスターカノン,117,5,1,4,4,300,0,33,9,7,IconEqunit_SP_RASUTAAKANON_R,9,IconEqunit_SP_RASUTAAKANON_R,0,,8,Equnit_Placeholder,1,1,269,0,0,0,2
+333,SPラスターカノン,117,6,2,4,4,200,109,34,9,7,IconEqunit_SP_RASUTAAKANON_SR,9,IconEqunit_SP_RASUTAAKANON_SR,0,,8,Equnit_Placeholder,1,1,270,0,0,0,1
+334,SPムーンフォース,118,14,1,4,4,300,0,35,18,7,IconEqunit_SP_MUUNFOOSU_R,9,IconEqunit_SP_MUUNFOOSU_R,0,,8,Equnit_Placeholder,1,1,271,0,0,0,2
+335,SPムーンフォース,118,15,2,4,4,200,108,36,18,7,IconEqunit_SP_MUUNFOOSU_SR,9,IconEqunit_SP_MUUNFOOSU_SR,0,,8,Equnit_Placeholder,1,1,272,0,0,0,1
+336,SPチャームボイス,119,5,1,4,4,300,0,37,18,7,IconEqunit_SP_TYAAMUBOISU_R,9,IconEqunit_SP_TYAAMUBOISU_R,0,,8,Equnit_Placeholder,1,1,273,0,0,0,2
+337,SPチャームボイス,119,6,2,4,4,200,109,38,18,7,IconEqunit_SP_TYAAMUBOISU_SR,9,IconEqunit_SP_TYAAMUBOISU_SR,0,,8,Equnit_Placeholder,1,1,274,0,0,0,1
+338,SPめざましビンタ,120,3,1,4,4,300,0,39,2,7,IconEqunit_SP_MEZAMASIBINTA_R,9,IconEqunit_SP_MEZAMASIBINTA_R,0,,8,Equnit_Placeholder,1,1,275,0,0,0,2
+339,SPめざましビンタ,120,4,2,4,4,200,116,40,2,7,IconEqunit_SP_MEZAMASIBINTA_SR,9,IconEqunit_SP_MEZAMASIBINTA_SR,0,,8,Equnit_Placeholder,1,1,276,0,0,0,1
+340,SPサイコカッター,121,14,1,4,4,300,0,41,14,7,IconEqunit_SP_SAIKOKATTAA_R,9,IconEqunit_SP_SAIKOKATTAA_R,0,,8,Equnit_Placeholder,1,1,277,0,0,0,2
+341,SPサイコカッター,121,15,2,4,4,200,110,42,14,7,IconEqunit_SP_SAIKOKATTAA_SR,9,IconEqunit_SP_SAIKOKATTAA_SR,0,,8,Equnit_Placeholder,1,1,278,0,0,0,1
+342,SPだいちのちから,122,3,1,4,4,300,0,43,5,7,IconEqunit_SP_DAITINOTIKARA_R,9,IconEqunit_SP_DAITINOTIKARA_R,0,,8,Equnit_Placeholder,1,1,279,0,0,0,2
+343,SPだいちのちから,122,4,2,4,4,200,109,44,5,7,IconEqunit_SP_DAITINOTIKARA_SR,9,IconEqunit_SP_DAITINOTIKARA_SR,0,,8,Equnit_Placeholder,1,1,280,0,0,0,1
+344,SPシャドーボール,123,3,1,4,4,300,0,45,8,7,IconEqunit_SP_SYADOOBOORU_R,9,IconEqunit_SP_SYADOOBOORU_R,0,,8,Equnit_Placeholder,1,1,281,0,0,0,2
+345,SPシャドーボール,123,4,2,4,4,200,109,46,8,7,IconEqunit_SP_SYADOOBOORU_SR,9,IconEqunit_SP_SYADOOBOORU_SR,0,,8,Equnit_Placeholder,1,1,282,0,0,0,1
+346,SPクロスチョップ,124,5,1,4,4,300,0,47,2,7,IconEqunit_SP_KUROSUTYOPPU_R,9,IconEqunit_SP_KUROSUTYOPPU_R,0,,8,Equnit_Placeholder,1,1,283,0,0,0,2
+347,SPクロスチョップ,124,6,2,4,4,200,111,48,2,7,IconEqunit_SP_KUROSUTYOPPU_SR,9,IconEqunit_SP_KUROSUTYOPPU_SR,0,,8,Equnit_Placeholder,1,1,284,0,0,0,1
+348,SPなみのり,125,3,1,4,4,300,0,49,11,7,IconEqunit_SP_NAMINORI_R,9,IconEqunit_SP_NAMINORI_R,0,,8,Equnit_Placeholder,1,1,285,0,0,0,2
+349,SPなみのり,125,4,2,4,4,200,110,50,11,7,IconEqunit_SP_NAMINORI_SR,9,IconEqunit_SP_NAMINORI_SR,0,,8,Equnit_Placeholder,1,1,286,0,0,0,1
+350,SPみずのはどう,126,3,1,4,4,300,0,51,11,7,IconEqunit_SP_MIZUNOHADOU_R,9,IconEqunit_SP_MIZUNOHADOU_R,0,,8,Equnit_Placeholder,1,1,287,0,0,0,2
+351,SPみずのはどう,126,4,2,4,4,200,107,52,11,7,IconEqunit_SP_MIZUNOHADOU_SR,9,IconEqunit_SP_MIZUNOHADOU_SR,0,,8,Equnit_Placeholder,1,1,288,0,0,0,1
+352,SPスパーク,127,3,1,4,4,300,0,53,13,7,IconEqunit_SP_SUPAAKU_R,9,IconEqunit_SP_SUPAAKU_R,0,,8,Equnit_Placeholder,1,1,289,0,0,0,2
+353,SPスパーク,127,4,2,4,4,200,104,54,13,7,IconEqunit_SP_SUPAAKU_SR,9,IconEqunit_SP_SUPAAKU_SR,0,,8,Equnit_Placeholder,1,1,290,0,0,0,1
+354,SPリーフブレード,128,14,1,4,4,300,0,55,12,7,IconEqunit_SP_RIIHUBUREEDO_R,9,IconEqunit_SP_RIIHUBUREEDO_R,0,,8,Equnit_Placeholder,1,1,291,0,0,0,2
+355,SPリーフブレード,128,15,2,4,4,200,105,56,12,7,IconEqunit_SP_RIIHUBUREEDO_SR,9,IconEqunit_SP_RIIHUBUREEDO_SR,0,,8,Equnit_Placeholder,1,1,292,0,0,0,1
+356,SPきりさく,129,5,1,4,4,300,0,57,1,7,IconEqunit_SP_KIRISAKU_R,9,IconEqunit_SP_KIRISAKU_R,0,,8,Equnit_Placeholder,1,1,293,0,0,0,2
+357,SPきりさく,129,6,2,4,4,200,111,58,1,7,IconEqunit_SP_KIRISAKU_SR,9,IconEqunit_SP_KIRISAKU_SR,0,,8,Equnit_Placeholder,1,1,294,0,0,0,1
+358,SPどろばくだん,130,5,1,4,4,300,0,59,5,7,IconEqunit_SP_DOROBAKUDAN_R,9,IconEqunit_SP_DOROBAKUDAN_R,0,,8,Equnit_Placeholder,1,1,295,0,0,0,2
+359,SPどろばくだん,130,6,2,4,4,200,108,60,5,7,IconEqunit_SP_DOROBAKUDAN_SR,9,IconEqunit_SP_DOROBAKUDAN_SR,0,,8,Equnit_Placeholder,1,1,296,0,0,0,1
+360,SPヘドロこうげき,131,3,1,4,4,300,0,61,4,7,IconEqunit_SP_HEDOROKOUGEKI_R,9,IconEqunit_SP_HEDOROKOUGEKI_R,0,,8,Equnit_Placeholder,1,1,297,0,0,0,2
+361,SPヘドロこうげき,131,4,2,4,4,200,102,62,4,7,IconEqunit_SP_HEDOROKOUGEKI_SR,9,IconEqunit_SP_HEDOROKOUGEKI_SR,0,,8,Equnit_Placeholder,1,1,298,0,0,0,1
+362,SPじごくぐるま,132,5,1,4,4,300,0,63,2,7,IconEqunit_SP_ZIGOKUGURUMA_R,9,IconEqunit_SP_ZIGOKUGURUMA_R,0,,8,Equnit_Placeholder,1,1,299,0,0,0,2
+363,SPじごくぐるま,132,6,2,4,4,200,110,64,2,7,IconEqunit_SP_ZIGOKUGURUMA_SR,9,IconEqunit_SP_ZIGOKUGURUMA_SR,0,,8,Equnit_Placeholder,1,1,300,0,0,0,1
+364,SPでんこうせっか,133,5,1,4,4,300,0,65,1,7,IconEqunit_SP_DENKOUSEKKA_R,9,IconEqunit_SP_DENKOUSEKKA_R,0,,8,Equnit_Placeholder,1,1,301,0,0,0,2
+365,SPでんこうせっか,133,6,2,4,4,200,114,66,1,7,IconEqunit_SP_DENKOUSEKKA_SR,9,IconEqunit_SP_DENKOUSEKKA_SR,0,,8,Equnit_Placeholder,1,1,302,0,0,0,1
+366,SPエナジーボール,134,3,1,4,4,300,0,67,12,7,IconEqunit_SP_ENAZIIBOORU_R,9,IconEqunit_SP_ENAZIIBOORU_R,0,,8,Equnit_Placeholder,1,1,303,0,0,0,2
+367,SPエナジーボール,134,4,2,4,4,200,109,68,12,7,IconEqunit_SP_ENAZIIBOORU_SR,9,IconEqunit_SP_ENAZIIBOORU_SR,0,,8,Equnit_Placeholder,1,1,304,0,0,0,1
+368,SPほのおのキバ,135,14,1,4,4,300,0,69,10,7,IconEqunit_SP_HONOONOKIBA_R,9,IconEqunit_SP_HONOONOKIBA_R,0,,8,Equnit_Placeholder,1,1,305,0,0,0,2
+369,SPほのおのキバ,135,15,2,4,4,200,114,70,10,7,IconEqunit_SP_HONOONOKIBA_SR,9,IconEqunit_SP_HONOONOKIBA_SR,0,,8,Equnit_Placeholder,1,1,306,0,0,0,1
+370,SPマジカルシャイン,136,5,1,4,4,300,0,71,18,7,IconEqunit_SP_MAZIKARUSYAIN_R,9,IconEqunit_SP_MAZIKARUSYAIN_R,0,,8,Equnit_Placeholder,1,1,307,0,0,0,2
+371,SPマジカルシャイン,136,15,2,4,4,200,110,72,18,7,IconEqunit_SP_MAZIKARUSYAIN_SR,9,IconEqunit_SP_MAZIKARUSYAIN_SR,0,,8,Equnit_Placeholder,1,1,308,0,0,0,1
+372,SPサイコショック,137,5,1,4,4,300,0,73,14,7,IconEqunit_SP_SAIKOSYOKKU_R,9,IconEqunit_SP_SAIKOSYOKKU_R,0,,8,Equnit_Placeholder,1,1,309,0,0,0,2
+373,SPサイコショック,137,6,2,4,4,200,110,74,14,7,IconEqunit_SP_SAIKOSYOKKU_SR,9,IconEqunit_SP_SAIKOSYOKKU_SR,0,,8,Equnit_Placeholder,1,1,310,0,0,0,1
+374,SPドリルくちばし,138,5,1,4,4,300,0,75,3,7,IconEqunit_SP_DORIRUKUTIBASI_R,9,IconEqunit_SP_DORIRUKUTIBASI_R,0,,8,Equnit_Placeholder,1,1,311,0,0,0,2
+375,SPドリルくちばし,138,15,2,4,4,200,110,76,3,7,IconEqunit_SP_DORIRUKUTIBASI_SR,9,IconEqunit_SP_DORIRUKUTIBASI_SR,0,,8,Equnit_Placeholder,1,1,312,0,0,0,1
+376,SPシャドーパンチ,139,3,1,4,4,300,0,77,8,7,IconEqunit_SP_SYADOOPANTI_R,9,IconEqunit_SP_SYADOOPANTI_R,0,,8,Equnit_Placeholder,1,1,313,0,0,0,2
+377,SPシャドーパンチ,139,4,2,4,4,200,110,78,8,7,IconEqunit_SP_SYADOOPANTI_SR,9,IconEqunit_SP_SYADOOPANTI_SR,0,,8,Equnit_Placeholder,1,1,314,0,0,0,1
+378,SPであいがしら,140,15,2,4,4,200,114,79,7,7,IconEqunit_SP_DEAIGASIRA_SR,9,IconEqunit_SP_DEAIGASIRA_SR,0,,8,Equnit_Placeholder,1,1,315,0,0,0,1
+379,SPワイルドボルト,141,3,1,4,4,300,0,80,13,7,IconEqunit_SP_WAIRUDOBORUTO_R,9,IconEqunit_SP_WAIRUDOBORUTO_R,0,,8,Equnit_Placeholder,1,1,316,0,0,0,2
+380,SPワイルドボルト,141,4,2,4,4,200,110,81,13,7,IconEqunit_SP_WAIRUDOBORUTO_SR,9,IconEqunit_SP_WAIRUDOBORUTO_SR,0,,8,Equnit_Placeholder,1,1,317,0,0,0,1
+381,SPいわなだれ,142,3,1,4,4,300,0,82,6,7,IconEqunit_SP_IWANADARE_R,9,IconEqunit_SP_IWANADARE_R,0,,8,Equnit_Placeholder,1,1,318,0,0,0,2
+382,SPいわなだれ,142,4,2,4,4,200,105,83,6,7,IconEqunit_SP_IWANADARE_SR,9,IconEqunit_SP_IWANADARE_SR,0,,8,Equnit_Placeholder,1,1,319,0,0,0,1
+383,SPトライアタック,143,14,1,4,4,300,0,84,1,7,IconEqunit_SP_TORAIATAKKU_R,9,IconEqunit_SP_TORAIATAKKU_R,0,,8,Equnit_Placeholder,1,1,320,0,0,0,2
+384,SPトライアタック,143,15,2,4,4,200,120,85,1,7,IconEqunit_SP_TORAIATAKKU_SR,9,IconEqunit_SP_TORAIATAKKU_SR,0,,8,Equnit_Placeholder,1,1,321,0,0,0,1
+385,SPとっしん,144,5,1,4,4,300,0,86,1,7,IconEqunit_SP_TOSSIN_R,9,IconEqunit_SP_TOSSIN_R,0,,8,Equnit_Placeholder,1,1,322,0,0,0,2
+386,SPとっしん,144,15,2,4,4,200,110,87,1,7,IconEqunit_SP_TOSSIN_SR,9,IconEqunit_SP_TOSSIN_SR,0,,8,Equnit_Placeholder,1,1,323,0,0,0,1
+387,SPだくりゅう,145,5,1,4,4,300,0,88,11,7,IconEqunit_SP_DAKURYUU_R,9,IconEqunit_SP_DAKURYUU_R,0,,8,Equnit_Placeholder,1,1,324,0,0,0,2
+388,SPだくりゅう,145,6,2,4,4,200,108,89,11,7,IconEqunit_SP_DAKURYUU_SR,9,IconEqunit_SP_DAKURYUU_SR,0,,8,Equnit_Placeholder,1,1,325,0,0,0,1
+389,SPほうでん,146,14,1,4,4,300,0,90,13,7,IconEqunit_SP_HOUDEN_R,9,IconEqunit_SP_HOUDEN_R,0,,8,Equnit_Placeholder,1,1,326,0,0,0,2
+390,SPほうでん,146,15,2,4,4,200,114,91,13,7,IconEqunit_SP_HOUDEN_SR,9,IconEqunit_SP_HOUDEN_SR,0,,8,Equnit_Placeholder,1,1,327,0,0,0,1
+391,SPふんえん,147,3,1,4,4,300,0,92,10,7,IconEqunit_SP_HUNEN_R,9,IconEqunit_SP_HUNEN_R,0,,8,Equnit_Placeholder,1,1,328,0,0,0,2
+392,SPふんえん,147,4,2,4,4,200,101,93,10,7,IconEqunit_SP_HUNEN_SR,9,IconEqunit_SP_HUNEN_SR,0,,8,Equnit_Placeholder,1,1,329,0,0,0,1
+393,SPあくのはどう,148,5,1,4,4,300,0,94,17,7,IconEqunit_SP_AKUNOHADOU_R,9,IconEqunit_SP_AKUNOHADOU_R,0,,8,Equnit_Placeholder,1,1,330,0,0,0,2
+394,SPあくのはどう,148,6,2,4,4,200,105,95,17,7,IconEqunit_SP_AKUNOHADOU_SR,9,IconEqunit_SP_AKUNOHADOU_SR,0,,8,Equnit_Placeholder,1,1,331,0,0,0,1
+395,SPドラゴンクロー,149,5,1,4,4,300,0,96,16,7,IconEqunit_SP_DORAGONKUROO_R,9,IconEqunit_SP_DORAGONKUROO_R,0,,8,Equnit_Placeholder,1,1,332,0,0,0,2
+396,SPドラゴンクロー,149,15,2,4,4,200,110,97,16,7,IconEqunit_SP_DORAGONKUROO_SR,9,IconEqunit_SP_DORAGONKUROO_SR,0,,8,Equnit_Placeholder,1,1,333,0,0,0,1
+397,SPドラゴンハンマー,150,6,2,4,4,200,110,98,16,7,IconEqunit_SP_DORAGONHANMAA_SR,9,IconEqunit_SP_DORAGONHANMAA_SR,0,,8,Equnit_Placeholder,1,1,334,0,0,0,1
+398,SPアームハンマー,151,3,1,4,4,300,0,99,2,7,IconEqunit_SP_AAMUHANMAA_R,9,IconEqunit_SP_AAMUHANMAA_R,0,,8,Equnit_Placeholder,1,1,335,0,0,0,2
+399,SPアームハンマー,151,4,2,4,4,200,110,100,2,7,IconEqunit_SP_AAMUHANMAA_SR,9,IconEqunit_SP_AAMUHANMAA_SR,0,,8,Equnit_Placeholder,1,1,336,0,0,0,1
+400,SPメガホーン,152,5,1,4,4,300,0,101,7,7,IconEqunit_SP_MEGAHOON_R,9,IconEqunit_SP_MEGAHOON_R,0,,8,Equnit_Placeholder,1,1,337,0,0,0,2
+401,SPメガホーン,152,6,2,4,4,200,110,102,7,7,IconEqunit_SP_MEGAHOON_SR,9,IconEqunit_SP_MEGAHOON_SR,0,,8,Equnit_Placeholder,1,1,338,0,0,0,1
+402,SPアクアテール,153,5,1,4,4,300,0,103,11,7,IconEqunit_SP_AKUATEERU_R,9,IconEqunit_SP_AKUATEERU_R,0,,8,Equnit_Placeholder,1,1,339,0,0,0,2
+403,SPアクアテール,153,15,2,4,4,200,110,104,11,7,IconEqunit_SP_AKUATEERU_SR,9,IconEqunit_SP_AKUATEERU_SR,0,,8,Equnit_Placeholder,1,1,340,0,0,0,1
+404,SPみずしゅりけん,154,3,1,4,4,300,0,105,11,7,IconEqunit_SP_MIZUSYURIKEN_R,9,IconEqunit_SP_MIZUSYURIKEN_R,0,,8,Equnit_Placeholder,1,1,341,0,0,0,2
+405,SPみずしゅりけん,154,4,2,4,4,200,114,106,11,7,IconEqunit_SP_MIZUSYURIKEN_SR,9,IconEqunit_SP_MIZUSYURIKEN_SR,0,,8,Equnit_Placeholder,1,1,342,0,0,0,1
+406,SPシザークロス,155,3,1,4,4,300,0,107,7,7,IconEqunit_SP_SIZAAKUROSU_R,9,IconEqunit_SP_SIZAAKUROSU_R,0,,8,Equnit_Placeholder,1,1,343,0,0,0,2
+407,SPシザークロス,155,4,2,4,4,200,110,108,7,7,IconEqunit_SP_SIZAAKUROSU_SR,9,IconEqunit_SP_SIZAAKUROSU_SR,0,,8,Equnit_Placeholder,1,1,344,0,0,0,1
+408,SPドレインキッス,156,3,1,4,4,300,0,109,7,7,IconEqunit_SP_DOREINKISSU_R,9,IconEqunit_SP_DOREINKISSU_R,0,,8,Equnit_Placeholder,1,1,345,0,0,0,2
+409,SPドレインキッス,156,4,2,4,4,200,112,110,7,7,IconEqunit_SP_DOREINKISSU_SR,9,IconEqunit_SP_DOREINKISSU_SR,0,,8,Equnit_Placeholder,1,1,346,0,0,0,1
+410,SPのしかかり,157,14,1,4,4,300,0,111,7,7,IconEqunit_SP_NOSIKAKARI_R,9,IconEqunit_SP_NOSIKAKARI_R,0,,8,Equnit_Placeholder,1,1,347,0,0,0,2
+411,SPのしかかり,157,15,2,4,4,200,104,112,7,7,IconEqunit_SP_NOSIKAKARI_SR,9,IconEqunit_SP_NOSIKAKARI_SR,0,,8,Equnit_Placeholder,1,1,348,0,0,0,1
+412,SPナイトバースト,158,3,1,4,4,300,0,113,7,7,IconEqunit_SP_NAITOBAASUTO_R,9,IconEqunit_SP_NAITOBAASUTO_R,0,,8,Equnit_Placeholder,1,1,349,0,0,0,2
+413,SPナイトバースト,158,4,2,4,4,200,108,114,7,7,IconEqunit_SP_NAITOBAASUTO_SR,9,IconEqunit_SP_NAITOBAASUTO_SR,0,,8,Equnit_Placeholder,1,1,350,0,0,0,1
+414,SPかみなり,159,3,1,4,4,300,0,115,7,7,IconEqunit_SP_KAMINARI_R,9,IconEqunit_SP_KAMINARI_R,0,,8,Equnit_Placeholder,1,1,351,0,0,0,2
+415,SPかみなり,159,4,2,4,4,200,104,116,7,7,IconEqunit_SP_KAMINARI_SR,9,IconEqunit_SP_KAMINARI_SR,0,,8,Equnit_Placeholder,1,1,352,0,0,0,1
+416,SPコメットパンチ,160,3,1,4,4,300,0,117,9,7,IconEqunit_SP_KOMETTOPANTI_R,9,IconEqunit_SP_KOMETTOPANTI_R,0,,8,Equnit_Placeholder,1,1,353,0,0,0,2
+417,SPコメットパンチ,160,4,2,4,4,200,110,118,9,7,IconEqunit_SP_KOMETTOPANTI_SR,9,IconEqunit_SP_KOMETTOPANTI_SR,0,,8,Equnit_Placeholder,1,1,354,0,0,0,1
+418,SPゴッドバード,161,3,1,4,4,300,0,119,3,7,IconEqunit_SP_GODDOBAADO_R,9,IconEqunit_SP_GODDOBAADO_R,0,,8,Equnit_Placeholder,1,1,355,0,0,0,2
+419,SPゴッドバード,161,4,2,4,4,200,105,120,3,7,IconEqunit_SP_GODDOBAADO_SR,9,IconEqunit_SP_GODDOBAADO_SR,0,,8,Equnit_Placeholder,1,1,356,0,0,0,1
+420,SPストーンエッジ,162,3,1,4,4,300,0,121,6,7,IconEqunit_SP_SUTOONEZZI_R,9,IconEqunit_SP_SUTOONEZZI_R,0,,8,Equnit_Placeholder,1,1,357,0,0,0,2
+421,SPストーンエッジ,162,4,2,4,4,200,110,122,6,7,IconEqunit_SP_SUTOONEZZI_SR,9,IconEqunit_SP_SUTOONEZZI_SR,0,,8,Equnit_Placeholder,1,1,358,0,0,0,1
+422,SPマジカルリーフ,163,3,1,4,4,300,0,123,12,7,IconEqunit_SP_MAZIKARURIIHU_R,9,IconEqunit_SP_MAZIKARURIIHU_R,0,,8,Equnit_Placeholder,1,1,359,0,0,0,2
+423,SPマジカルリーフ,163,4,2,4,4,200,109,124,12,7,IconEqunit_SP_MAZIKARURIIHU_SR,9,IconEqunit_SP_MAZIKARURIIHU_SR,0,,8,Equnit_Placeholder,1,1,360,0,0,0,1
+424,SPじしん,164,3,1,4,4,300,0,125,5,7,IconEqunit_SP_ZISIN_R,9,IconEqunit_SP_ZISIN_R,0,,8,Equnit_Placeholder,1,1,361,0,0,0,2
+425,SPじしん,164,4,2,4,4,200,110,126,5,7,IconEqunit_SP_ZISIN_SR,9,IconEqunit_SP_ZISIN_SR,0,,8,Equnit_Placeholder,1,1,362,0,0,0,1
+426,SPアクアジェット,165,14,1,4,4,300,0,127,11,7,IconEqunit_SP_AKUAJETTO_R,9,IconEqunit_SP_AKUAJETTO_R,0,,8,Equnit_Placeholder,1,1,363,0,0,0,2
+427,SPアクアジェット,165,15,2,4,4,200,114,128,11,7,IconEqunit_SP_AKUAJETTO_SR,9,IconEqunit_SP_AKUAJETTO_SR,0,,8,Equnit_Placeholder,1,1,364,0,0,0,1
+428,SPオーバーヒート,166,3,1,4,4,300,0,129,10,7,IconEqunit_SP_OOBAAHIITO_R,9,IconEqunit_SP_OOBAAHIITO_R,0,,8,Equnit_Placeholder,1,1,365,0,0,0,2
+429,SPオーバーヒート,166,4,2,4,4,200,110,130,10,7,IconEqunit_SP_OOBAAHIITO_SR,9,IconEqunit_SP_OOBAAHIITO_SR,0,,8,Equnit_Placeholder,1,1,366,0,0,0,1
+430,SPもろはのずつき,167,3,1,4,4,300,0,131,6,7,IconEqunit_SP_MOROHANOZUTUKI_R,9,IconEqunit_SP_MOROHANOZUTUKI_R,0,,8,Equnit_Placeholder,1,1,367,0,0,0,2
+431,SPもろはのずつき,167,4,2,4,4,200,105,132,6,7,IconEqunit_SP_MOROHANOZUTUKI_SR,9,IconEqunit_SP_MOROHANOZUTUKI_SR,0,,8,Equnit_Placeholder,1,1,368,0,0,0,1
+432,SPかげうち,168,3,1,4,4,300,0,133,8,7,IconEqunit_SP_KAGEUTI_R,9,IconEqunit_SP_KAGEUTI_R,0,,8,Equnit_Placeholder,1,1,369,0,0,0,2
+433,SPかげうち,168,4,2,4,4,200,114,134,8,7,IconEqunit_SP_KAGEUTI_SR,9,IconEqunit_SP_KAGEUTI_SR,0,,8,Equnit_Placeholder,1,1,370,0,0,0,1
+434,SPふぶき,169,3,1,4,4,300,0,135,15,7,IconEqunit_SP_HUBUKI_R,9,IconEqunit_SP_HUBUKI_R,0,,8,Equnit_Placeholder,1,1,371,0,0,0,2
+435,SPふぶき,169,4,2,4,4,200,106,136,15,7,IconEqunit_SP_HUBUKI_SR,9,IconEqunit_SP_HUBUKI_SR,0,,8,Equnit_Placeholder,1,1,372,0,0,0,1
+436,SPアイアンヘッド,170,3,1,4,4,300,0,137,9,7,IconEqunit_SP_AIANHEDDO_R,9,IconEqunit_SP_AIANHEDDO_R,0,,8,Equnit_Placeholder,1,1,373,0,0,0,2
+437,SPアイアンヘッド,170,4,2,4,4,200,110,138,9,7,IconEqunit_SP_AIANHEDDO_SR,9,IconEqunit_SP_AIANHEDDO_SR,0,,8,Equnit_Placeholder,1,1,374,0,0,0,1
+438,SPであいがしら,140,14,1,4,4,300,0,139,7,7,IconEqunit_SP_DEAIGASIRA_R,9,IconEqunit_SP_DEAIGASIRA_R,0,,8,Equnit_Placeholder,1,1,375,0,0,0,2
+439,SPベノムショック,171,14,1,4,4,300,0,140,4,7,IconEqunit_SP_BENOMUSYOKKU_R,9,IconEqunit_SP_BENOMUSYOKKU_R,0,,8,Equnit_Placeholder,1,1,376,0,0,0,2
+440,SPベノムショック,171,15,2,4,4,200,110,141,4,7,IconEqunit_SP_BENOMUSYOKKU_SR,9,IconEqunit_SP_BENOMUSYOKKU_SR,0,,8,Equnit_Placeholder,1,1,377,0,0,0,1
+441,SPぼうふう,172,14,1,4,4,300,0,142,3,7,IconEqunit_SP_BOUHUU_R,9,IconEqunit_SP_BOUHUU_R,0,,8,Equnit_Placeholder,1,1,378,0,0,0,2
+442,SPぼうふう,172,15,2,4,4,200,105,143,3,7,IconEqunit_SP_BOUHUU_SR,9,IconEqunit_SP_BOUHUU_SR,0,,8,Equnit_Placeholder,1,1,379,0,0,0,1
+443,SPばかぢから,173,14,1,4,4,300,0,144,2,7,IconEqunit_SP_BAKADIKARA_R,9,IconEqunit_SP_BAKADIKARA_R,0,,8,Equnit_Placeholder,1,1,380,0,0,0,2
+444,SPばかぢから,173,15,2,4,4,200,110,145,2,7,IconEqunit_SP_BAKADIKARA_SR,9,IconEqunit_SP_BAKADIKARA_SR,0,,8,Equnit_Placeholder,1,1,381,0,0,0,1
+445,SPげきりん,174,14,1,4,4,300,0,146,16,7,IconEqunit_SP_GEKIRIN_R,9,IconEqunit_SP_GEKIRIN_R,0,,8,Equnit_Placeholder,1,1,382,0,0,0,2
+446,SPげきりん,174,15,2,4,4,200,114,147,16,7,IconEqunit_SP_GEKIRIN_SR,9,IconEqunit_SP_GEKIRIN_SR,0,,8,Equnit_Placeholder,1,1,383,0,0,0,1
+447,ライチュウプラス,175,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,39,026_U_01,8,Equnit_Common,1,0,196,187,7,0,0
+448,ジュナイパープラス,176,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,39,724_U_00,8,Equnit_Common,1,0,197,187,119,0,0
+449,ガオガエンプラス,177,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,39,727_U_00,8,Equnit_Common,1,0,198,187,120,0,0
+450,アシレーヌプラス,178,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,39,730_U_00,8,Equnit_Common,1,0,199,187,119,0,0
+451,ドヒドイデプラス,179,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,39,748_U_00,8,Equnit_Common,1,0,200,187,178,0,0
+452,ハガネールプラス,180,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,34,208_M_00,8,Equnit_Common,1,0,201,187,178,0,0
+453,カイリキープラス,181,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,33,068_U_00,8,Equnit_Common,1,0,202,187,120,0,0
+454,ライコウプラス,182,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,34,243_U_00,8,Equnit_Common,1,0,203,187,7,0,0
+455,スイクンプラス,183,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,34,245_U_00,8,Equnit_Common,1,0,204,187,119,0,0
+456,ルギアプラス,184,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,34,249_U_00,8,Equnit_Common,1,0,205,187,119,0,0
+457,ペルシアンプラス,185,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,39,053_U_01,8,Equnit_Common,1,0,206,187,7,0,0
+458,ドデカバシプラス,186,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,39,733_U_00,8,Equnit_Common,1,0,207,187,119,0,0
+459,ルガルガンプラス,187,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,39,745_U_00,8,Equnit_Common,1,0,208,187,178,0,0
+460,シルヴァディプラス,188,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,39,773_U_00,8,Equnit_Common,1,0,209,187,7,0,0
+461,マッシブーンプラス,189,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,39,794_U_00,8,Equnit_Common,1,0,210,187,120,0,0
+462,SPさばきのつぶて,190,14,1,4,4,300,0,158,1,7,IconEqunit_SP_SABAKINOTUBUTE_R,9,IconEqunit_SP_SABAKINOTUBUTE_R,0,,8,Equnit_Placeholder,1,1,394,0,0,0,2
+463,SPさばきのつぶて,190,15,2,4,4,200,110,159,1,7,IconEqunit_SP_SABAKINOTUBUTE_SR,9,IconEqunit_SP_SABAKINOTUBUTE_SR,0,,8,Equnit_Placeholder,1,1,395,0,0,0,1
+464,SPはどうだん,191,14,1,4,4,300,0,160,2,7,IconEqunit_SP_HADOUDAN_R,9,IconEqunit_SP_HADOUDAN_R,0,,8,Equnit_Placeholder,1,1,396,0,0,0,2
+465,SPはどうだん,191,15,2,4,4,200,109,161,2,7,IconEqunit_SP_HADOUDAN_SR,9,IconEqunit_SP_HADOUDAN_SR,0,,8,Equnit_Placeholder,1,1,397,0,0,0,1
+466,SPせいなるほのお,192,14,1,4,4,300,0,152,10,7,IconEqunit_SP_SEINARUHONOO_R,9,IconEqunit_SP_SEINARUHONOO_R,0,,8,Equnit_Placeholder,1,1,388,0,0,0,2
+467,SPせいなるほのお,192,15,2,4,4,200,101,153,10,7,IconEqunit_SP_SEINARUHONOO_SR,9,IconEqunit_SP_SEINARUHONOO_SR,0,,8,Equnit_Placeholder,1,1,389,0,0,0,1
+468,キュウコンプラス,193,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,39,038_U_01,8,Equnit_Common,1,0,211,187,119,0,0
+469,ガブリアスプラス,194,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,36,445_F_00,8,Equnit_Common,1,0,212,187,7,0,0
+470,ドクロッグプラス,195,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,36,454_M_00,8,Equnit_Common,1,0,213,187,120,0,0
+471,サザンドラプラス,196,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,37,635_U_00,8,Equnit_Common,1,0,214,187,178,0,0
+472,ジガルデプラス,197,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,38,718_U_00,8,Equnit_Common,1,0,215,187,120,0,0
+473,ラグラージプラス,198,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,35,260_U_00,8,Equnit_Common,1,0,216,187,178,0,0
+474,バシャーモプラス,199,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,35,257_M_00,8,Equnit_Common,1,0,217,187,120,0,0
+475,バタフリープラス,200,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,33,012_M_00,8,Equnit_Common,1,0,218,187,7,0,0
+476,ラティアスプラス,201,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,35,380_U_00,8,Equnit_Common,1,0,219,187,119,0,0
+477,ジュカインプラス,202,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,35,254_U_00,8,Equnit_Common,1,0,220,187,7,0,0
+478,メガニウムプラス,203,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,34,154_F_00,8,Equnit_Common,1,0,221,189,119,0,0
+479,バクフーンプラス,204,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,34,157_U_00,8,Equnit_Common,1,0,222,189,178,0,0
+480,オーダイルプラス,205,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,34,160_U_00,8,Equnit_Common,1,0,223,189,7,0,0
+481,デンリュウプラス,206,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,34,181_U_00,8,Equnit_Common,1,0,224,189,119,0,0
+482,バンギラスプラス,207,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,34,248_U_00,8,Equnit_Common,1,0,225,189,120,0,0
+483,SPガリョウテンセイ,208,14,1,4,4,300,0,154,3,7,IconEqunit_SP_GARYOUTENSEI_R,9,IconEqunit_SP_GARYOUTENSEI_R,0,,8,Equnit_Placeholder,1,1,390,0,0,0,2
+484,SPガリョウテンセイ,208,15,2,4,4,200,114,155,3,7,IconEqunit_SP_GARYOUTENSEI_SR,9,IconEqunit_SP_GARYOUTENSEI_SR,0,,8,Equnit_Placeholder,1,1,391,0,0,0,1
+485,SPサイコブースト,209,14,1,4,4,300,0,156,14,7,IconEqunit_SP_SAIKOBUUSUTO_R,9,IconEqunit_SP_SAIKOBUUSUTO_R,0,,8,Equnit_Placeholder,1,1,392,0,0,0,2
+486,SPサイコブースト,209,15,2,4,4,200,110,157,14,7,IconEqunit_SP_SAIKOBUUSUTO_SR,9,IconEqunit_SP_SAIKOBUUSUTO_SR,0,,8,Equnit_Placeholder,1,1,393,0,0,0,1
+487,ニドキングプラス,210,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,33,034_U_00,8,Equnit_Common,1,0,226,189,120,0,0
+488,ニョロボンプラス,211,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,33,062_U_00,8,Equnit_Common,1,0,227,189,178,0,0
+489,フリーザープラス,212,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,33,144_U_00,8,Equnit_Common,1,0,228,189,7,0,0
+490,サンダープラス,213,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,33,145_U_00,8,Equnit_Common,1,0,229,189,119,0,0
+491,ファイヤープラス,214,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,33,146_U_00,8,Equnit_Common,1,0,230,189,119,0,0
+492,カイリュープラス,215,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,33,149_U_00,8,Equnit_Common,1,0,231,189,120,0,0
+493,SPあおいほのお,216,3,1,4,4,300,0,162,10,7,IconEqunit_SP_AOIHONOO_R,9,IconEqunit_SP_AOIHONOO_R,0,,8,Equnit_Placeholder,1,1,398,0,0,0,2
+494,SPあおいほのお,216,4,2,4,4,200,101,163,10,7,IconEqunit_SP_AOIHONOO_SR,9,IconEqunit_SP_AOIHONOO_SR,0,,8,Equnit_Placeholder,1,1,399,0,0,0,1
+495,SPらいげき,217,3,1,4,4,300,0,164,13,7,IconEqunit_SP_RAIGEKI_R,9,IconEqunit_SP_RAIGEKI_R,0,,8,Equnit_Placeholder,1,1,400,0,0,0,2
+496,SPらいげき,217,4,2,4,4,200,114,165,13,7,IconEqunit_SP_RAIGEKI_SR,9,IconEqunit_SP_RAIGEKI_SR,0,,8,Equnit_Placeholder,1,1,401,0,0,0,1
+497,ラティオスプラス,218,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,35,381_U_00,8,Equnit_Common,1,0,232,189,178,0,0
+498,カイオーガプラス,219,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,35,382_U_00,8,Equnit_Common,1,0,233,189,119,0,0
+499,グラードンプラス,220,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,35,383_U_00,8,Equnit_Common,1,0,234,189,120,0,0
+500,レックウザプラス,221,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,35,384_U_00,8,Equnit_Common,1,0,235,189,120,0,0
+501,デオキシスプラス,222,11,1,2,1,300,0,0,0,7,IconEqunit_POKE_PLUS,9,IconEqunit_Common_POKE_PLUS,35,386_U_00,8,Equnit_Common,1,0,236,189,7,0,0
+502,SP_DUMMY_502,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+503,SP_DUMMY_503,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+504,SP_DUMMY_504,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+505,SP_DUMMY_505,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+506,SP_DUMMY_506,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+507,SP_DUMMY_507,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+508,SP_DUMMY_508,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+509,SP_DUMMY_509,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+510,SP_DUMMY_510,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+511,SP_DUMMY_511,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+512,SP_DUMMY_512,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+513,SP_DUMMY_513,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+514,SP_DUMMY_514,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+515,SP_DUMMY_515,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+516,SP_DUMMY_516,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+517,SP_DUMMY_517,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+518,SP_DUMMY_518,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+519,SP_DUMMY_519,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+520,SP_DUMMY_520,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+521,SP_DUMMY_521,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+522,SP_DUMMY_522,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+523,SP_DUMMY_523,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+524,SP_DUMMY_524,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+525,SP_DUMMY_525,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+526,SP_DUMMY_526,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+527,SP_DUMMY_527,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+528,SP_DUMMY_528,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+529,SP_DUMMY_529,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+530,SP_DUMMY_530,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+531,SP_DUMMY_531,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+532,SP_DUMMY_532,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+533,SP_DUMMY_533,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+534,SP_DUMMY_534,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+535,SP_DUMMY_535,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+536,SP_DUMMY_536,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+537,SP_DUMMY_537,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+538,SP_DUMMY_538,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+539,SP_DUMMY_539,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+540,SP_DUMMY_540,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
+541,SP_DUMMY_541,0,0,0,0,0,0,0,0,0,7,IconEqunit_POKE_PLUS,9,,0,,8,Equnit_Common,1,0,0,0,0,0,0
